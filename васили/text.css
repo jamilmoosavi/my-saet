@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin: 0px;
+    background-image: url(../EVGENEY/555.jpg);
+    background-position:unset;
+    background-size:100%;
+    background-repeat:repeat-y;
+
+}
+
+ol{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    background-color:rgba(0, 0, 0, 0.884);
+    margin: 0px !important;
+    width: 100%;
+    height:100%;
+    text-decoration: none;
+    
+}
+ol>li{
+
+
+    display: inline-block;
+    font-size:2vw;
+    color: goldenrod !important;
+
+    
+}
+h1{
+    margin: 0px !important;
+    font-size:10vw ;
+    color: gold;
+    
+}
+h2{
+    font-size: 3vw;
+    color: gold;
+}
+p{
+    color: gold;
+    font-size: 3vw;
+    
+    margin: 0px !important;
+}
+.container{
+    display: grid;
+grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+gap: 40px;
+margin: 0px 40px 40px 40px;
+    
+
+
+}
+.container>div img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 10px 5px 0px gold;
+    
+    border: solid 1px gold;
+    border-radius: 50%;
+    
+     
+
+}
+.container>div img :hover{
+    width: 100%;
+
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    gap: 40px;
+    margin: 0px 40px 40px 40px;
+}
+.container2>div img{
+    width: 100%;
+    height: 100%;
+    border:  solid 1px  gold;
+    box-shadow: 5px 2px 5px 0px gold;
+    border-radius: 50%;
+}
+.tebal{
+    background-color: #000300;
+    margin:0px  !important;
+
+}
+.tebal>li{
+    font-size: 3vw;
+    color: gold;
+  
+}
